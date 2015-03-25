@@ -14,8 +14,8 @@ int main(int argc, char* argv[]){
     register unsigned char *grid;
     uint64_t i, j;
 
-    printf("size of unsigned long long: %d\n", sizeof(unsigned long long));
-    printf("size of uint64_t: %d\n", sizeof(uint64_t));
+//    printf("size of unsigned long long: %d\n", sizeof(unsigned long long));
+//    printf("size of uint64_t: %d\n", sizeof(uint64_t));
     
     if ( argc > 1 ) {
        max = strtoull(argv[1], NULL, 0);
@@ -33,11 +33,11 @@ int main(int argc, char* argv[]){
         }
     }
 
-    for (i=0;i<max;i++) {
-        if ( ISON(i) ) {
-            printf("%d\n", i);
-        }
-    }
+//    for (i=0;i<max;i++) {
+//        if ( ISON(i) ) {
+//            printf("%d\n", i);
+//        }
+//    }
 
 
 
